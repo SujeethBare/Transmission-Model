@@ -1,0 +1,43 @@
+%Importing the drive cycle
+Drive = readmatrix('UDDS.csv');
+
+%Vehicle
+%Vehicle mass
+Mv = 1630.665; %kg
+%Mass of drive
+Md = 80;
+%Gross vehicle mass
+GVM = Mv+Md;
+%Gravitational constant
+g = 9.81;
+%Gross vehicle weight
+GVW = GVM*g;
+
+%Vehicle Resistive
+%Coefficient of rolling resistance
+Crf = 0.015;
+%Frontal area 
+Fa = 3.8056;
+%Air denisty
+rho = 1.225;
+%Drag coefficient
+Cd = 0.28;
+
+%Radius of the wheel
+Rw = 0.2032;
+
+%Transmission
+GR = 7.96;
+Teff = 0.89;
+
+%Motor
+%Efficiency
+Meff=readmatrix("Nissan Leaf Motor Controller Efficiency.csv")
+Meff_Torque=Meff(:,17);
+Meff_Speed=Meff(:,1);
+Meff_eff=Meff(:,2:16);
+
+Motor= readmatrix('Nissan Leaf MC.csv');
+Motor_Speed= Motor(:,1);
+Motor_Pto= Motor(:,1);
+Motor_Speed= Motor(:,1);
