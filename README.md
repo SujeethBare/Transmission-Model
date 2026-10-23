@@ -1,3 +1,5 @@
+I have tried to add comments wherever the things might be ambiguous, though not everywhere.
+
 THERE ARE 5 EDITOR FILES
 
 1) IMPORTS: CONSIST BASIC STUFF FOR SIZING AND SIZING CALCULATIONS
