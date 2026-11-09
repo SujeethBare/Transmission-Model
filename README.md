@@ -1,4 +1,4 @@
-# EV Transmission Modeling & Gear Ratio Optimization (Single-Speed vs Two-Speed)
+# Transmission Modeling & Gear Ratio Optimization (Single-Speed vs Two-Speed)
 
 MATLAB/Simulink models for sizing the transmission of an electric vehicle (Nissan Leaf class), comparing a **single-speed** and a **two-speed** gearbox over the **UDDS** drive cycle.
 
